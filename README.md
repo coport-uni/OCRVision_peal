@@ -6,7 +6,7 @@
 * https://blockdmask.tistory.com/466
 * https://blockdmask.tistory.com/566
 * https://stackoverflow.com/questions/6618515/sorting-list-according-to-corresponding-values-from-a-parallel-list
-* 
+  
 ```bash
 # 0.4.0미만 버전 확인 할 것!
 # 19/11/2024 버전 사용 / libcamera=v0.3.2+99-1230f78d
@@ -33,8 +33,9 @@ pip install ultralytics
 * https://app.roboflow.com/ds/7iwEs33L4b?key=qYNgHuofnR
 * https://app.roboflow.com/ousiondeeplearning/digit-2xls6/1
 * 라즈베리파이에서 추론시간 450ms 정도
-	![[Pasted image 20250508214642.png]]
-![[confusion_matrix_normalized.png]]
+![[2025-05-08 213435.png]](https://github.com/coport-uni/OCRVision_peal/blob/main/2025-05-08%20213435.png)
+![[2025-05-08 213435.png]](https://github.com/coport-uni/OCRVision_peal/blob/main/2025-05-08%20213511.png)
+![[confusion_matrix_normalized.png]](https://github.com/coport-uni/OCRVision_peal/blob/main/confusion_matrix_normalized.png)
 ## Code
 ```python title:yolo_trainer
 from ultralytics import YOLO
@@ -167,10 +168,5 @@ if __name__ == "__main__":
     main()
 ```
 ## Result
-![[image (1).webp]]
-
-![[image.webp]]
-
-![[image (2).webp]]![[화면 캡처 2025-05-08 213435.png]]
-
-![[화면 캡처 2025-05-08 213511.png]]![[KakaoTalk_20250508_214324796.mp4]]
+![[confusion_matrix_normalized.png]](https://github.com/coport-uni/OCRVision_peal/blob/main/confusion_matrix_normalized.png)
+![[confusion_matrix_normalized.png]](https://github.com/coport-uni/OCRVision_peal/blob/main/KakaoTalk_20250508_214300161.jpg)
